@@ -1,0 +1,40 @@
+body {
+    background-image: url(fond1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.box-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+#city {
+    background-color: dodgerblue;
+}
+
+#temp {
+    background-color: lightsteelblue;
+}
+
+#humidity {
+    background-color: royalblue;
+}
+
+#wind {
+    background-color: slateblue;
+}
